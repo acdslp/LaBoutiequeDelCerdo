@@ -1,0 +1,14 @@
+# Raw/source images and reference material not used directly by the site
+*.jpg
+*.jpeg
+*.psd
+ejemplos pag/
+carne sin fondo.png
+varios tipos de carne sin fondo.png
+logo .png
+productos 1.png
+productos 2.png
+
+# OS junk
+.DS_Store
+Thumbs.db
