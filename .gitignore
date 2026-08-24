@@ -17,3 +17,9 @@ Thumbs.db
 BOUTIQUE.xls
 *.xls
 *.xlsx
+*.csv
+BOUTIQUE_*
+
+# Bot
+bot/node_modules/
+bot/.env
