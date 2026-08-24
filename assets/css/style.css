@@ -127,19 +127,14 @@ h1, h2, h3 {
 
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--cream); }
 .brand-logo { width: 46px; height: 46px; object-fit: contain; }
-.brand-text { font-family: var(--font-display); font-size: 19px; letter-spacing: .01em; }
+.brand-text { display: flex; flex-direction: column; font-family: var(--font-display); font-size: 19px; letter-spacing: .01em; line-height: 1.15; }
 .brand-text em { color: var(--gold); font-style: normal; }
 .brand-vzla {
   font-family: var(--font-body);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: .12em;
-  color: var(--bg);
-  background: var(--gold);
-  padding: 2px 6px;
-  border-radius: 4px;
-  vertical-align: middle;
-  margin-left: 2px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .22em;
+  color: var(--gold);
 }
 
 .main-nav { display: flex; gap: 32px; }
