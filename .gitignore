@@ -12,3 +12,8 @@ productos 2.png
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Datos internos de la empresa
+BOUTIQUE.xls
+*.xls
+*.xlsx
