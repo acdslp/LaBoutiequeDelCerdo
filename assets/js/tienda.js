@@ -130,7 +130,7 @@ function enviarPedido(e) {
 
   const total = totalCarrito();
   const msg =
-`🐷 *Nuevo pedido — La Boutique del Cerdo*
+`*Nuevo pedido — La Boutique del Cerdo*
 
 *Cliente:* ${f.nombre.value}
 *Teléfono:* ${f.telefono.value}
